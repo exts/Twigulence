@@ -1,0 +1,26 @@
+{
+  "name": "exts/twigulence",
+  "description": "Twig Integration for the Opulence PHP 7.0 Framework",
+  "license": "MIT",
+  "keywords": ["twigulence", "twig opulence integration", "twig integration", "opulence twig compiler", "opulence"],
+  "authors": [
+    {
+      "name": "Lamonte Harris"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "opulence/framework": "^1.0",
+    "twig/twig": "^1.27"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*",
+    "mockery/mockery": "^0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Twigulence\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
